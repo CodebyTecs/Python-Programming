@@ -13,7 +13,7 @@ b = 1
 n = 1000
 h = (b - a)/n
 f = []
-i = a
+i =a
 integral = (func(a) + func(b))/2
 for i in range(n):
     integral += func(a + i*h)
